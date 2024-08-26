@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    background-color: rgb(48, 48, 98);
+    justify-content: center;
+    align-items: center;
+}
+.oga{
+    margin: 200px;
+    width: 250px;
+    height: 440px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color:rgba(63, 54, 51, 0.344);
+}
+img{
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+h1, h2, p, a {
+   font-family: sans-serif;
+   font-weight: bold;
+}
+p{
+    color: rgb(237, 233, 233);
+    text-align: center ;
+    font-size: 10px;
+
+}
+h1  {
+    color: rgb(237, 233, 233);
+    text-align: center ;
+    font-size: 23px;
+}
+h2{
+    color: hsl(180, 100%, 50%);
+    text-align: center;
+    font-size: 13px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+   
+}
+a{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    color:rgb(237, 233, 233);
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background: rgba(111, 104, 104, 0.633);
+    font-size: 13px;
+}
+a:hover{
+    background-color: hsl(180, 100%, 50%);
+    color: black;
+}
+@media screen  and (min-width: 375px ) {
+    .oga{
+        width: 250px;
+        height: 370px;
+    }
+    a{
+        width: 180px;
+        height: 28px
+    }
+}
+@media screen  and (max-width: 1440px ) {
+    .oga{
+        width: 250px;
+        height: 420px;
+    }
+   
+}
+
+
